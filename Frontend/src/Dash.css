@@ -1,0 +1,120 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h4 {
+    font-size: 55px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #ede9e9;
+}
+
+.balance {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.balance img {
+    width: 24px;
+    height: 24px;
+}
+
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+form input, form select, form button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+form button {
+    background: #ff5733;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e74c3c;
+}
+
+.expense-table {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 35px;
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-table th, .expense-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#generate-excel {
+    background: #ff5733;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+#generate-excel:hover {
+    background: #e74c3c;
+}
